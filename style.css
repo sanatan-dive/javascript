@@ -45,11 +45,15 @@ h1{
 .bigBox{
     width: 500px;
     height: 500px;
-    display: flex;
-    flex-wrap: wrap;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+   
     gap:0.5vmin;
     justify-content: center;
     align-items: center;
+    margin-bottom: auto;
+    margin-top: 10px;
+   
     border-radius: 1rem;
 }
 
